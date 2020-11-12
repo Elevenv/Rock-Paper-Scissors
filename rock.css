@@ -1,0 +1,18 @@
+.container3 {
+    border:1px solid black ;
+    padding: 20px;
+    text-align: center;
+}
+.rock {
+    margin-left: 100px;
+    
+}
+.paper{
+    margin-left: 200px;
+}
+.scissors{
+    margin-left:300px;
+}
+.container3 img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50,233,1)
+}
