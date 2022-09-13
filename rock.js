@@ -17,7 +17,6 @@ function rpsGame(choice){
     }
     // console.log(botChoiceStr,humanChoice)
     var result = Botchoicefun(humanChoice,botChoiceStr)
-    // console.log(result)
     function Botchoicefun(humanChoice,botChoiceStr){
         var db = {
             'rock':{'scissors':'win','rock':'tie','paper':'lost'},
@@ -28,7 +27,6 @@ function rpsGame(choice){
         botScore = db[botChoiceStr][humanChoice]
         return [yourScore,botScore]
     }
-    // msg = FinalMsg(result)
     if(yourScore=='lost'){
         msg = {'msg':"You Lost!",'BotChoice':botChoiceStr}
     }
@@ -38,7 +36,6 @@ function rpsGame(choice){
     else{
         msg = {'msg':"You Win!!",'BotChoice':botChoiceStr}
     }
-    // console.log(result,msg,yourScore == 'lost',yourScore=='tie')
     // var fyc = document.createTextNode( 'Your Choice : ' + humanChoice.toUpperCase())
     // var yc = document.getElementById('yc')
     // yc.appendChild(fyc)
