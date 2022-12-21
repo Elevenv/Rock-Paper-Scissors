@@ -1,5 +1,4 @@
-# RPS
-Had a thought to develope game and js tutorials was going on so created this one 
+# -> Rock Paper Scissors
+## [Click Here](https://elevenv.github.io/Rock-Paper-Scissors/) to play Rock Paper Scissors
 
-Visit URL to play this game : 
-https://elevenv.github.io/RPS/ 
+
